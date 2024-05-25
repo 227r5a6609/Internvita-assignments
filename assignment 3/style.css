@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu',sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+}
+.container .heading{
+    width: 50%;
+    padding-bottom: 50px;
+}
+.container .heading h3{
+    font-size: 3em;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #000;
+
+}
+.container .heading h3 span{
+    font-weight: 10;
+}
+.container .imgbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container .imgbox .images{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+    background-size: cover;
+    
+}
+.container .imgbox .images img{
+    width: 100%;
+    padding-bottom: 20px;
+}
+.container .btn{
+    width: 100px;
+    margin: 40px 0 60px 0;
+    background: #000;
+    padding: 20px 5px;
+    border-radius: 15px;
+}
+.container .btn a{
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+@media only screen and (max-width: 769px) {
+    .container .imgbox {
+        flex-direction: column;
+    }
+    .container .imgbox .images {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 643px) {
+    .container .heading {
+        width: 100%;
+    }
+    .container .heading h3 {
+        font-size: 1em;
+    }
+}

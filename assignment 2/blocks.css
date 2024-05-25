@@ -1,0 +1,66 @@
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+#one{
+    padding: 5px;
+    position: absolute;
+    width: 190px;
+    border: 10px solid  rgb(0, 0, 244);
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    background-color:white;
+    bottom: 0;
+    right: 0;
+
+}
+#two{
+    padding: 5px;
+    position: absolute;
+    width: 190px;
+    margin: 10px;
+    border: 10px solid #219b05;
+    color: black;
+    background-color: #fcfcfcf4;
+    top: 0;
+    right: 0;
+}
+#three{
+    padding: 5px;
+    position: absolute;
+    width: 195px;
+    border: 10px solid rgb(255, 165, 2);
+    margin: 10px;
+    color: black;
+    background-color: white;
+    top: 0;
+    left: 0;
+}
+#four{
+    padding: 5px;
+    position: absolute;
+    width: 185px;
+    border: 10px solid rgb(255, 255, 2);
+    margin: 10px;
+    color: black;
+    background-color: white;
+    align-self: flex-end;
+    bottom: 0;
+    left: 0;
+    font-weight: bold;
+    
+}
+
+#link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#link a{
+    color: #ffffff;
+    background-color: #0074D9;
+    padding: 3px 2px;
+    text-decoration: none;
+    font-weight: bold;
+}
